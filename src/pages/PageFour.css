@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "NeueMontreal-Light";
+    src: url(../../assets/fonts/NeueMontreal-Light.otf)
+}
+
+@font-face {
+    font-family: "NeueMontreal-Regular";
+    src: url(../../assets/fonts/NeueMontreal-Regular.otf)
+}
+
+.parallax-four {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    place-items: center;
+    display: grid;
+    background-image: linear-gradient(#2d499c, #101336);
+}
+
+.text-four {
+    font-family: 'NeueMontreal-Light', sans-serif;
+    position: relative;
+    z-index: 10;
+    font-size: 3rem;
+    margin: 0 0 15% 0;
+    letter-spacing: .1rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.layer_four_one {
+    background-image: url("../assets/empat/empat_satu.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+}
+
+.layer_four_two {
+    background-image: url("../assets/empat/empat_dua.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 4;
+    inset: 0;
+}
+
+.layer_four_three {
+    background-image: url("../assets/empat/empat_tiga.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 8;
+    inset: 0;
+}

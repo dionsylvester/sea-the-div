@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "NeueMontreal-Light";
+    src: url(../../assets/fonts/NeueMontreal-Light.otf)
+}
+
+@font-face {
+    font-family: "NeueMontreal-Regular";
+    src: url(../../assets/fonts/NeueMontreal-Regular.otf)
+}
+
+.parallax-three {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    place-items: center;
+    display: grid;
+    background-image: linear-gradient(#3c3ec7, #2d499c);
+}
+
+.text-three {
+    font-family: 'NeueMontreal-Regular', sans-serif;
+    position: relative;
+    z-index: 10;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    margin: 0 20% 25% 20%;
+    text-align: center;
+}
+
+.layer_three_one {
+    background-image: url("../assets/tiga/tiga_satu.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+}
+
+.layer_three_two {
+    background-image: url("../assets/tiga/tiga_dua.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 4;
+    inset: 0;
+}
+
+.layer_three_three {
+    background-image: url("../assets/tiga/tiga_tiga.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 8;
+    inset: 0;
+}
+
+.layer_three_four {
+    background-image: url("../assets/tiga/tiga_empat.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 8;
+    inset: 0;
+}

@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "NeueMontreal-Light";
+    src: url(../../assets/fonts/NeueMontreal-Light.otf)
+}
+
+@font-face {
+    font-family: "NeueMontreal-Regular";
+    src: url(../../assets/fonts/NeueMontreal-Regular.otf)
+}
+
+@font-face {
+    font-family: "NeueMontreal-Medium";
+    src: url(../../assets/fonts/NeueMontreal-Medium.otf)
+}
+
+.parallax-one {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    place-items: center;
+    display: grid;
+    background-image: linear-gradient(#101336, #af5767);
+}
+
+.text-one {
+    font-family: 'NeueMontreal-Regular', sans-serif;
+    position: relative;
+    z-index: 10;
+    font-weight: 600;
+    font-size: 6rem;
+    margin: 0 0 15% 0;
+    letter-spacing: .1rem;
+    text-align: center;
+    color: aliceblue;
+}
+
+.layer_one_one {
+    background-image: url("../assets/satu/satu_satu.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 0;
+    inset: 0;
+}
+
+.layer_one_two {
+    background-image: url("../assets/satu/satu_dua.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 4;
+    inset: 0;
+}
+
+.layer_one_three {
+    background-image: url("../assets/satu/satu_tiga.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 8;
+    inset: 0;
+}
+
+.layer_one_four {
+    background-image: url("../assets/satu/satu_empat.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 12;
+    inset: 0;
+}
+
+.layer_one_five {
+    background-image: url("../assets/satu/satu_lima.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 16;
+    inset: 0;
+}
+
+.layer_one_six {
+    background-image: url("../assets/satu/satu_enam.png");
+    background-position: bottom;
+    background-size: cover;
+    position: absolute;
+    z-index: 20;
+    inset: 0;
+}
