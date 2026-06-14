@@ -8,15 +8,19 @@ import './App.css';
 function App() {
   useEffect(() => {
     const handleScroll = () => {
-      let scrollHeight = document.documentElement.scrollHeight;
-      let totalHeight = window.innerHeight + window.pageYOffset;
-
-      if (totalHeight >= scrollHeight - 100) {
-        window.scrollTo(0, 1);
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const windowHeight = window.innerHeight;
+      
+      if (scrollTop >= windowHeight * 4) {
+        window.scrollTo(0, 0);
+      }
+      
+      if (scrollTop < 0) {
+        window.scrollTo(0, windowHeight * 4);
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -30,6 +34,7 @@ function App() {
         <section><PageTwo /></section>
         <section><PageThree /></section>
         <section><PageFour /></section>
+        <section><PageOne /></section>
       </div>
     </>
   )
