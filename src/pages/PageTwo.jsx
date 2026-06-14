@@ -9,7 +9,7 @@ const PageTwo = () => {
         offset: ["start start", "end start"],
     })
 
-    const backgroundYone = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
+    const backgroundYone = useTransform(scrollYProgress, [0, 1], ["0%", "45%"]);
     const backgroundYtwo = useTransform(scrollYProgress, [0, 1], ["0%", "60%"]);
     const backgroundYthree = useTransform(scrollYProgress, [0, 1], ["0%", "20%"]);
     const textY = useTransform(scrollYProgress, [0, 1], ["0%", "0%"]);

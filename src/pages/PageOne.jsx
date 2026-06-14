@@ -20,7 +20,7 @@ const PageOne = () => {
     return(
     <>
         <div className='parallax-one' ref={ref}>
-            <motion.p style={{ y: textY }} className='text-one'>Sea The Div</motion.p>
+            <motion.p style={{ y: textY }} className='text-one'>Sea the Div</motion.p>
             <motion.div style={{ y: backgroundYone }} className='layer_one_one'/>
             <motion.div style={{ y: backgroundYtwo }} className='layer_one_two' />
             <motion.div style={{ y: backgroundYthree }} className='layer_one_three'/>
