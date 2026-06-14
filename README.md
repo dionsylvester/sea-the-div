@@ -3,7 +3,7 @@
 Welcome to **Sea the Div**—a mini web-experiment where code meets the ocean (and a highly intentional, slightly terrible pun). 
 
 ## Behind the Scenes
-Yes, it’s a pun on **"See the diff"** (difference) for creative web developers:
+Yes, it’s a pun on **"See the diff (difference)"** for creative web developers:
 * **Sea**: Represents the fluid, multi-layered parallax scrolling backgrounds.
 * **Div**: Represents the humble `<div>` tag we all abuse in HTML.
 
