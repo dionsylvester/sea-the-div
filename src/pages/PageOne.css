@@ -36,7 +36,7 @@
 }
 
 .layer_one_one {
-    background-image: url("../assets/satu/satu_satu.png");
+    background-image: url("../assets/satu/satu_satu.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -45,7 +45,7 @@
 }
 
 .layer_one_two {
-    background-image: url("../assets/satu/satu_dua.png");
+    background-image: url("../assets/satu/satu_dua.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -54,7 +54,7 @@
 }
 
 .layer_one_three {
-    background-image: url("../assets/satu/satu_tiga.png");
+    background-image: url("../assets/satu/satu_tiga.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -63,7 +63,7 @@
 }
 
 .layer_one_four {
-    background-image: url("../assets/satu/satu_empat.png");
+    background-image: url("../assets/satu/satu_empat.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -72,7 +72,7 @@
 }
 
 .layer_one_five {
-    background-image: url("../assets/satu/satu_lima.png");
+    background-image: url("../assets/satu/satu_lima.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -81,7 +81,7 @@
 }
 
 .layer_one_six {
-    background-image: url("../assets/satu/satu_enam.png");
+    background-image: url("../assets/satu/satu_enam.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
