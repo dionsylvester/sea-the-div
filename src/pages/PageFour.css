@@ -30,7 +30,7 @@
 }
 
 .layer_four_one {
-    background-image: url("../assets/empat/empat_satu.png");
+    background-image: url("../assets/empat/empat_satu.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -39,7 +39,7 @@
 }
 
 .layer_four_two {
-    background-image: url("../assets/empat/empat_dua.png");
+    background-image: url("../assets/empat/empat_dua.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -48,7 +48,7 @@
 }
 
 .layer_four_three {
-    background-image: url("../assets/empat/empat_tiga.png");
+    background-image: url("../assets/empat/empat_tiga.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
