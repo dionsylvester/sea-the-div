@@ -29,7 +29,7 @@
 }
 
 .layer_two_one {
-    background-image: url("../assets/dua/dua_satu.png");
+    background-image: url("../assets/dua/dua_satu.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -38,7 +38,7 @@
 }
 
 .layer_two_two {
-    background-image: url("../assets/dua/dua_dua.png");
+    background-image: url("../assets/dua/dua_dua.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -47,7 +47,7 @@
 }
 
 .layer_two_three {
-    background-image: url("../assets/dua/dua_tiga.png");
+    background-image: url("../assets/dua/dua_tiga.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
