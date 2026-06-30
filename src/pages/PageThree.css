@@ -30,7 +30,7 @@
 }
 
 .layer_three_one {
-    background-image: url("../assets/tiga/tiga_satu.png");
+    background-image: url("../assets/tiga/tiga_satu.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -39,7 +39,7 @@
 }
 
 .layer_three_two {
-    background-image: url("../assets/tiga/tiga_dua.png");
+    background-image: url("../assets/tiga/tiga_dua.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -48,7 +48,7 @@
 }
 
 .layer_three_three {
-    background-image: url("../assets/tiga/tiga_tiga.png");
+    background-image: url("../assets/tiga/tiga_tiga.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
@@ -57,7 +57,7 @@
 }
 
 .layer_three_four {
-    background-image: url("../assets/tiga/tiga_empat.png");
+    background-image: url("../assets/tiga/tiga_empat.webp");
     background-position: bottom;
     background-size: cover;
     position: absolute;
